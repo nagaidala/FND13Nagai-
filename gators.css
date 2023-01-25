@@ -1,0 +1,48 @@
+form {
+  display: grid;
+  place-content: center;
+  margin: auto;
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  border-radius: 8px;
+  top: 50%;
+  transform: translate(0%,80%);
+}
+
+p {
+  padding: 25px;
+}
+
+input {
+  font-family: "游ゴシック", "YuGothic";
+  background-color: seashell;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
+input#id-submit:hover {
+  font-family: "游ゴシック", "YuGothic";
+  background-color: snow;
+  border-right: none;
+  border-bottom: none;
+  transform: translate3d(0, 3px, 0);
+  border-radius: 4px;
+}
+
+
+div {
+  margin:auto;
+  background-color: blue;
+  width: 300px;
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+body {
+  background-image: url("jungle.jpg")
+}
